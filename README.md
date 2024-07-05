@@ -1,4 +1,4 @@
-Instagram Photo Extractor is a simple yet powerful browser extension that allows you to extract high-resolution photos from Instagram posts with just one click.
+Instagram Photo Extractor is a simple yet powerful Firefox browser extension that allows you to extract high-resolution photos from Instagram posts with just one click.
 
 **Features:**
 - Extracts full-resolution photos from Instagram posts.
