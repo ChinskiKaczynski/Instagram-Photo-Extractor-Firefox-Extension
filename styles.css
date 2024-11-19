@@ -2,23 +2,23 @@ body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  width: 360px; /* zwiększono szerokość */
-  background-color: #f0f8ff; /* pastelowy kolor tła */
+  width: 360px;
+  background-color: #f0f8ff;
   color: #333;
 }
 
 .container {
-  padding: 20px; /* przywrócono padding */
+  padding: 20px;
   text-align: center;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* obramowanie */
-  margin: 10px auto; /* dostosowano margines */
-  width: 320px; /* dostosowano szerokość */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px auto;
+  width: 320px;
 }
 
 h1 {
-  font-size: 22px; /* nieco zmniejszono rozmiar czcionki */
+  font-size: 22px;
   margin-bottom: 10px;
   color: #0095f6;
 }
@@ -26,7 +26,7 @@ h1 {
 .description {
   font-size: 14px;
   color: #666;
-  margin-bottom: 15px; /* zmniejszono margines dolny */
+  margin-bottom: 15px;
 }
 
 .instructions {
@@ -51,7 +51,7 @@ h1 {
 }
 
 .btn {
-  background-color: #4CAF50; /* zielony kolor tła */
+  background-color: #4CAF50;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -62,16 +62,16 @@ h1 {
   margin: 10px 0;
   cursor: pointer;
   border-radius: 4px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease; /* dodano transformację */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
 }
 
 .btn:hover {
-  background-color: #45a049; /* ciemniejszy zielony na hover */
+  background-color: #45a049;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .btn:active {
-  transform: scale(0.95); /* efekt zmniejszenia przy kliknięciu */
+  transform: scale(0.95);
 }
 
 #photoContainer img {

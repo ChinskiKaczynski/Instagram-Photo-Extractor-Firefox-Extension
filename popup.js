@@ -1,5 +1,7 @@
-document.getElementById('extractPhotos').addEventListener('click', () => {
-  browser.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    browser.tabs.executeScript(tabs[0].id, { file: "content.js" });
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById("extractPhotos").addEventListener("click", () => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      chrome.tabs.sendMessage(tabs[0].id, { action: "extractMedia" });
+    });
   });
 });
